@@ -1,0 +1,473 @@
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Mauri Mustonen}
+\newcommand{\CVTitle}{Mauri Mustonen CV}
+%\newcommand{\CVNote}{CV compiled on {\today} for Acme Corporation}
+\newcommand{\CVWebpage}{https://mauri.codes}
+
+% PDF settings and properties.
+\hypersetup{pdftitle={\CVTitle},
+    pdfauthor={\CVAuthor},
+    pdfsubject={\CVWebpage},
+    pdfcreator={XeLaTeX},
+    pdfproducer={},
+    pdfkeywords={},
+    unicode=true,
+    bookmarks=true,
+    bookmarksopen=true,
+    pdfstartview=FitH,
+    pdfpagelayout=OneColumn,
+    pdfpagemode=UseOutlines,
+    hidelinks,
+    breaklinks
+}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+\begin{document}
+
+% Title
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+    \par
+    \href{mailto:mauri\_mustonen@hotmail.com}{mauri\_mustonen@hotmail.com}\,
+    \SubBulletSymbol\,
+    \href{https://github.com/kazhuu}{https://github.com/kazhuu}\,
+    \SubBulletSymbol\,
+    \href{\CVWebpage}{\url{\CVWebpage}}
+\end{SubTitle}
+
+\begin{Body}
+
+% Education
+
+\Section{Education}{Education}{PDF:Education}
+
+\Entry
+\textbf{Tampere University of Technology}, Tampere, Finland
+\hfill
+\DatestampYMD{2016}{5}{} -- \DatestampYMD{2018}{12}{}
+\Gap
+\BulletItem
+M.Sc. in Software Engineering with Distinction
+\begin{Detail}
+    \SubBulletItem Cumulative GPA: 4.52 / 5.0
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{Karelia University of Applied Sciences}, Joensuu, Finland
+\hfill
+\DatestampYMD{2012}{05}{} -- \DatestampYMD{2016}{05}{}
+\Gap
+\BulletItem
+Information Engineer in Software
+\begin{Detail}
+    \SubBulletItem Cumulative GPA: 4.50 / 5.00
+\end{Detail}
+
+\BigGap
+\Entry
+\textbf{Vocational School Avartum Oy}, Joensuu, Finland
+\hfill
+\DatestampYMD{2010}{05}{} -- \DatestampYMD{2019}{05}{}
+\Gap
+\BulletItem
+Vocational Qualification in Business and Administration
+
+\BigGap
+\Entry
+\textbf{Vocational School Peltola}, Joensuu, Finland
+\hfill
+\DatestampYMD{2004}{05}{} -- \DatestampYMD{2007}{05}{}
+\Gap
+\BulletItem
+Electronics Technician
+
+% Experience
+
+\Section{Experience}{Experience}{PDF:Experience}
+
+\Entry
+\textbf{Wapice Oy}, Tampere, Finland
+\hfill
+\DatestampY{2019} -- Present
+\Gap
+\begin{Details}
+    \SubBulletItem Embedded Software Developer
+    \SubBulletItem Embedded development with C and C++ up to C++17
+    \SubBulletItem Real time OS, ARMv7 architecture and driver development
+    \SubItem for custom harware blocks.
+\end{Details}
+
+\BigGap
+\Entry
+\textbf{Alsus Oy}, Tampere, Finland
+\hfill
+\DatestampY{2017} -- \DatestampY{2019}
+\Gap
+\BulletItem Full Stack Web Developer
+\begin{Details}
+    \SubBulletItem Web development (e.g Ruby on Rails, AngularJS).
+    \SubBulletItem Distributed system architect and developer (e.g. Linux, C, Ruby, \\
+    CMake, AMQP, Redis)
+    \SubBulletItem Writing Ruby native extensions to C language
+    \SubBulletItem Contributing to open source (e.g. Ruby on Rails, libIEC6850)
+\end{Details}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% OTHER WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Other Work\newline
+Experience}
+{Other Work Experience}
+{PDF:OtherWorkExperience}
+
+\Entry
+\href{http://www.example.com/my-company}
+{\textbf{Alpha Engineering Firm}},
+Oakland, Ohio, USA
+
+\Gap
+\BulletItem
+Project Officer,
+Department of Meteorological Sciences,
+\hfill
+\DatestampYMD{2007}{10}{15} --
+\DatestampYMD{2008}{01}{15}
+\newline
+Research \& Development Division
+\begin{Detail}
+    \SubBulletItem
+    Nullam venenatis egestas nisl eget elementum.
+    \SubBulletItem
+    Nulla finibus justo vel turpis efficitur, non lacinia orci maximus. Proin rhoncus, felis vel hendrerit lacinia, enim ipsum ultricies massa, sit amet interdum nisi massa sit amet justo.
+    \SubBulletItem
+    Etiam vitae eros mollis, consectetur quam quis, molestie massa.
+\end{Detail}
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\BulletItem
+English: Native language.
+
+\Gap
+\BulletItem
+Spanish: Fluent (speaking, reading, writing).
+
+\Gap
+\BulletItem
+Latin: Intermediate (reading); basic (speaking, writing).
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\Entry
+{\TeX}, {\LaTeX}, {\XeLaTeX},
+MATLAB,
+Mathematica,
+Maple,
+R,
+Tableau,
+Adobe Photoshop,
+Adobe Illustrator,
+Microsoft Word,
+Microsoft Excel,
+Microsoft PowerPoint.
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+\Entry
+Digital photography,
+typography,
+swimming.
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\Section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Professor Jonathan Public}
+\newline
+Professor of Geology and Mechanical Engineering
+\newline
+First American University
+\newline
+1000 First Avenue, Springfield, Massachusetts 22222, USA
+\newline
+\href{mailto:jonathanpublic@example.com}
+{jonathanpublic@example.com}
+\,\SubBulletSymbol\,
++1\,(555)\,222-2222
+
+\BigGap
+\BulletItem
+\textbf{Dr Alice Bob Carol}
+\newline
+Director, Research \& Development
+\newline
+Alpha Engineering Firm
+\newline
+20 North Street, Oakland, Ohio 33333, USA
+\newline
+\href{mailto:alicebobcarol@example.com}
+{alicebobcarol@example.com}
+\,\SubBulletSymbol\,
++1\,(555)\,333-3333
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MULTILINGUAL UNICODE EXAMPLES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Multilingual Unicode Examples}
+{Multilingual Unicode Examples}
+{PDF:MultilingualUnicodeExamples}
+
+\BulletItem
+Assortment of unicode characters from
+\href{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}
+{\url{http://www.ltg.ed.ac.uk/~richard/unicode-sample.html}}
+
+\begin{Detail}
+    \Item
+    \textbf{Latin Extended-A}
+    Ā ā Ă ă Ą ą Ć ć Ĉ ĉ Ċ ċ Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ĝ ĝ Ğ ğ Ġ ġ Ģ ģ Ĥ ĥ Ħ ħ Ĩ ĩ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ĵ ĵ
+    \textbf{Latin Extended-B}
+    ƀ Ɓ Ƃ ƃ Ƅ ƅ Ɔ Ƈ ƈ Ɖ Ɗ Ƌ ƌ ƍ Ǝ Ə Ɛ Ƒ ƒ Ɠ Ɣ ƕ Ɩ Ɨ Ƙ ƙ ƚ ƛ Ɯ Ɲ ƞ Ɵ Ơ ơ Ƣ ƣ Ƥ ƥ Ʀ Ƨ ƨ Ʃ ƪ ƫ Ƭ ƭ Ʈ Ư ư Ʊ Ʋ Ƴ ƴ Ƶ
+    \textbf{Latin Extended Additional}
+    Ḁ ḁ Ḃ ḃ Ḅ ḅ Ḇ ḇ Ḉ ḉ Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ḟ ḟ Ḡ ḡ Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ḭ ḭ Ḯ ḯ Ḱ ḱ Ḳ ḳ Ḵ ḵ
+    \textbf{Greek}
+    ʹ ͵ ͺ ; ΄ ΅ Ά · Έ Ή Ί Ό Ύ Ώ ΐ Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α β γ δ ε ζ η θ
+    \textbf{Cyrillic}
+    Ё Ђ Ѓ Є Ѕ І Ї Ј Љ Њ Ћ Ќ Ў Џ А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я а б в г д е ж з
+    \textbf{Hebrew}
+    א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ ֝ ֞ ֟ ֠ ֡ ֣ ֤ ֥ ֦ ֧ ֨ ֩ ֪ ֫ ֬ ֭ ֮ ֯ ְ ֱ ֒ ֓ ֔
+    \textbf{Armenian}
+    {\UseSecondaryFont
+    Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ՙ ՚ ՛ ՜ ՝ ՞ ՟ ա բ գ դ ե զ}
+    \textbf{Thai}
+    {\UseSecondaryFont
+    ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ}
+\end{Detail}
+
+% Manual page break.
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% THIS IS A SECTION WITH USAGE NOTES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Declare a new group to limit the scope of \color to this section.
+\begingroup
+\color{blue}
+
+\Section
+{This is a\newline
+Section\newline
+With\newline
+Usage Notes}
+{This is a Section With Usage Notes (For PDF Bookmark)}
+{PDF:ThisIsASectionWithUsageNotes:ForPDFLink}
+
+\SubSection
+{This is a SubSection}
+{This is a SubSection (For PDF Bookmark)}
+{PDF:ThisIsASubSection:ForPDFLink}
+
+\BigGap
+\BulletItem
+Use \CodeCommand{Section\{a\}\{b\}\{c\}} and
+\CodeCommand{SubSection\{a\}\{b\}\{c\}}
+to create sections and subsections, where
+\Code{a} is the heading displayed on the page,
+\Code{b} is the PDF bookmark heading, and
+\Code{c} is the internal PDF link (must be unique).
+Sections and subsections will appear in the PDF bookmarks.
+Note the CamelCase command names.
+
+\Gap
+\BulletItem
+Use
+\CodeCommand{Entry},
+\CodeCommand{BulletItem},
+\CodeCommand{SubBulletItem},
+\CodeCommand{SubSubBulletItem},
+\CodeCommand{Item},
+\CodeCommand{SubItem},
+\CodeCommand{SubSubItem},
+\CodeCommand{NumberedItem},
+etc.,
+to create entries in the main body of the CV.
+
+\Gap
+\BulletItem
+Enclose entry details between
+\CodeCommand{begin\{Detail\}} and
+\CodeCommand{end\{Detail\}}
+so that they are typeset in a smaller font.
+\begin{Detail}
+    \Item
+    This is an example of entry detail text enclosed in a \Code{Detail} environment.
+\end{Detail}
+
+\Gap
+\BulletItem
+Use \CodeCommand{Gap} and \CodeCommand{BigGap} to insert vertical spaces between entries to improve layout.
+
+\BigGap
+\SubSection
+{This is Another SubSection}
+{This is Another Subsection (For PDF Bookmark)}
+{PDF:ThisIsAnotherSubSection:ForPDFLink}
+
+\BigGap
+\Entry
+This is a plain \CodeCommand{Entry},
+followed by an \CodeCommand{hfill} and a date range
+\hfill
+\DatestampYM{2015}{10} --
+\DatestampYM{2015}{12}
+
+\Gap
+\BulletItem
+This is a \CodeCommand{BulletItem}.
+\Item
+This is an \CodeCommand{Item}, which has no bullet.
+Note the alignment with the \CodeCommand{BulletItem} above.
+
+\Gap
+\SubBulletItem
+This is a \CodeCommand{SubBulletItem}.
+\SubItem
+This is a \CodeCommand{SubItem}, which has no bullet.
+Note the alignment with the \CodeCommand{SubBulletItem} above.
+
+\Gap
+\SubSubBulletItem
+This is a \CodeCommand{SubSubBulletItem}.
+\SubSubItem
+This is a \CodeCommand{SubSubItem}, which has no bullet.
+Note the alignment with the \CodeCommand{SubSubBulletItem} above.
+
+\Gap
+\NumberedItem{[42]}
+This is a \CodeCommand{NumberedItem}.
+Change the value of the macro \CodeCommand{MaxNumberedItem} to adjust the indentation width.
+
+\BigGap
+\SubSection
+{Line, Paragraph, and Page Breaks}
+{Line, Paragraph, and Page Breaks (For PDF Bookmark)}
+{PDF:LineParagraphAndPageBreaks:ForPDFLink}
+
+\BigGap
+\BulletItem
+To create a new line within the same paragraph (i.e., preserving the same paragraph indentation), use \CodeCommand{newline} instead of \CodeCommand{\textbackslash};
+the latter will reset the paragraph indentation.
+
+\Gap
+\BulletItem
+To create a new paragraph, use \CodeCommand{par} or simply leave an empty line.
+Paragraph indentations (from
+\CodeCommand{Entry},
+\CodeCommand{BulletItem},
+\CodeCommand{SubBulletItem},
+\CodeCommand{SubSubBulletItem},
+\CodeCommand{Item},
+\CodeCommand{SubItem},
+\CodeCommand{SubSubItem},
+\CodeCommand{NumberedItem},
+etc.) do not carry across different paragraphs.
+
+\Gap
+\BulletItem
+To create a new page, use \CodeCommand{newpage}.
+
+\BigGap
+\SubSection
+{Dates}
+{Dates (For PDF Bookmark)}
+{PDF:Dates:ForPDFLink}
+
+\BigGap
+\BulletItem
+Use the following macros to specify and display dates consistently:
+\SubBulletItem
+\CodeCommand{DatestampYMD\{yyyy\}\{MM\}\{dd\}}
+(e.g., \CodeCommand{DatestampYMD\{2008\}\{01\}\{15\}})
+\SubBulletItem
+\CodeCommand{DatestampYM\{yyyy\}\{MM\}}
+(e.g., \CodeCommand{DatestampYM\{2008\}\{01\}})
+\SubBulletItem
+\CodeCommand{DatestampY\{yyyy\}}
+(e.g., \CodeCommand{DatestampY\{2008\}})
+
+\Gap
+\BulletItem
+Change the date format option passed to the document class to adjust how dates are displayed throughout the document:
+\SubBulletItem
+\Code{MMMyyyy} (``Jan~2008'')
+\SubBulletItem
+\Code{ddMMMyyyy} (``15~Jan~2008'')
+\SubBulletItem
+\Code{MMMMyyyy} (``January~2008'')
+\SubBulletItem
+\Code{ddMMMMyyyy} (``15~January~2008'')
+\SubBulletItem
+\Code{yyyyMMdd} (``2008-01-15'')
+\SubBulletItem
+\Code{yyyyMM} (``2008-01'')
+\SubBulletItem
+\Code{yyyy} (``2008'')
+
+\endgroup
+
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\BigGap
+\UseNoteFont%
+\null\hfill%
+%[\textit{\CVNote}]
+
+\end{document}
