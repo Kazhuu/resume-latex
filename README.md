@@ -10,5 +10,5 @@ My CV done with LaTeX and
 
 To compile run
 ```
-xelatex resume.pdf
+xelatex resume.tex
 ```
